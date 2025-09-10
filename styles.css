@@ -1,3 +1,9 @@
 body{
     background-color: gray;
 }
+
+.destaque-input{
+    border: 2px solid blue;
+    transition: border 0.3s ease;
+    background-color: yellow;
+}

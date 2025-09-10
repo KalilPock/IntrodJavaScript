@@ -3,6 +3,14 @@
             const inputValor1 = document.getElementById('valor1')
             const inputValor2 = document.getElementById('valor2')
 
+            //Query
+            const inputsTexto = document.querySelectorAll('input[type="password"]')
+
+            //Percorrer cada input e adiciona a classe CSS "destaque-input"
+            inputsTexto.forEach(input => {
+                input.classList.add('destaque-input')
+            })
+
             //Pega os valores e converte para um NUMERO
             const valor1 = parseFloat(inputValor1.value);
             const valor2 = parseFloat(inputValor2.value);
