@@ -4,10 +4,10 @@
             const inputValor2 = document.getElementById('valor2')
 
             //Query
-            const inputsTexto = document.querySelectorAll('input')
+            const inputs = document.querySelectorAll('button[type="submit"]')
 
             //Percorrer cada input e adiciona a classe CSS "destaque-input"
-            inputsTexto.forEach(input => {
+            inputs.forEach(input => {
                 input.classList.add('destaque-input')
             })
 
