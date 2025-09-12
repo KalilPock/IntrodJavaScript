@@ -4,7 +4,7 @@
             const inputValor2 = document.getElementById('valor2')
 
             //Query
-            const inputsTexto = document.querySelectorAll('input[type="password"]')
+            const inputsTexto = document.querySelectorAll('input')
 
             //Percorrer cada input e adiciona a classe CSS "destaque-input"
             inputsTexto.forEach(input => {
