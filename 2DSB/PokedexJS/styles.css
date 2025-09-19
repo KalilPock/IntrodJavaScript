@@ -1,0 +1,12 @@
+body{
+    background-color: yellow;
+}
+
+.container-fluid{
+    margin: 15px;
+}
+
+.card{
+    margin: 5px;
+}
+
