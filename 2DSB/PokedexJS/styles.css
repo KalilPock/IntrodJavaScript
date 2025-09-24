@@ -1,12 +1,30 @@
 body{
-    background-color: yellow;
+    background-color: #f6bd20;
 }
 
 .container-fluid{
+    border-color: solid, black;
     margin: 15px;
 }
 
 .card{
+    align-items: center;
+    background-color: #41414a;
     margin: 5px;
+}
+
+img{
+    margin: 30px;
+    background-color: #292929;
+}
+
+p{
+ color: white;
+}
+
+form{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #de9400;
 }
 
