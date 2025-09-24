@@ -3,9 +3,30 @@
 }
 
 .card{
+    align-items: center;
+    background-color: #315a7b;
     margin: 5px;
 }
 
-.row{
-    
+img{
+    margin: 5px;
+    background-color: gray;
+}
+
+input{
+    background-color: #315a7b;
+}
+
+form{
+    padding: 6px;
+    background-color: #315a7b;
+}
+
+body{
+    background-color: #528bac;
+}
+
+.cartas{
+    width: 20%;
+    height: 20%;
 }
