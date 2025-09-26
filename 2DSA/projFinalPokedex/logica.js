@@ -28,4 +28,14 @@ pesquisaBotao.addEventListener('click', ()=>{
     });
 });
 
+// Logica testando Eventos
+const pokemonCards = document.querySelectorAll('.card');
+
+//itera sobre cada card para adicionar um ouvinte de evento
+pokemonCards.forEach(card => {
+    card.addEventListener('mouseover', (event) => {
+        const pokemonNome = card.getAttribute('data-name');
+        console.log(`O mouse está sobre o card do Pokemon: ${pokemonNome}`)
+    });
+});
 
