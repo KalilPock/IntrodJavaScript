@@ -53,9 +53,8 @@ pokemonCards.forEach(card => {
 //seleciona o elemento onde os cards serão adicionados
 const rowElemento = document.querySelector('.row'); // Corrigido para selecionar apenas UM elemento
 
-console.log("Elemento row selecionado:", rowElemento);
 //salvando em uma variavel a URL da API
-const apiURL = 'http://pokeapi.co/api/v2/pokemon?limit=50';
+const apiURL = 'http://pokeapi.co/api/v2/pokemon?limit=100';
 
 //função fetch
 fetch(apiURL)
@@ -75,7 +74,7 @@ fetch(apiURL)
                         <h5 class="card-title">${pokemon.name}</h5>
                         <a href="#" class="btn btn-outline-danger">Detalhes</a>
                     </div>
-                </div>
+            </div>
             `;
 
             //adiciona o novo card ao elemento 'row' no HTML
